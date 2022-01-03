@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: david/belajar-cicd:latest
+          tags: daluto/belajar-cicd:latest
 
           #triger action 2
           #edit docker username and pass 2 
