@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag daluto/go-cicd:$(date +%s)
       
     - name: Docker Push
-      run: docker push daluto/go-cicd
+      run: docker push daluto/go-cicd:$(date +%s)
